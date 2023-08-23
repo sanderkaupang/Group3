@@ -2,3 +2,5 @@
 Industrielle Styresystemer
 
 Sander Kaupang
+
+Jardar Fagerlund
