@@ -4,3 +4,5 @@ Industrielle Styresystemer
 Sander Kaupang
 
 Jardar Fagerlund
+
+Kristoffer Weihrauch
