@@ -3,6 +3,6 @@ Industrielle Styresystemer
 
 Sander Kaupang
 
-Jardar Fagerlund
+Jardar Fagerlund 2023
 
 Kristoffer Weihrauch
