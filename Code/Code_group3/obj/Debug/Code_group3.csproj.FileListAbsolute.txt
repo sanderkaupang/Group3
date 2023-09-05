@@ -1,0 +1,10 @@
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\bin\Debug\Code_group3.exe.config
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\bin\Debug\Code_group3.exe
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\bin\Debug\Code_group3.pdb
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.csproj.AssemblyReference.cache
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.Form1.resources
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.Properties.Resources.resources
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.csproj.GenerateResource.cache
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.csproj.CoreCompileInputs.cache
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.exe
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.pdb
