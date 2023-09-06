@@ -122,7 +122,7 @@
             this.panel1.Controls.Add(this.btnAlarmDeactive);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(198, 518);
+            this.panel1.Size = new System.Drawing.Size(198, 566);
             this.panel1.TabIndex = 7;
             // 
             // picBoxDeactive
