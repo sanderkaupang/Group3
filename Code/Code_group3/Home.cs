@@ -15,18 +15,24 @@ namespace Code_group3
         public Home()
         {
             InitializeComponent();
+            
         }
 
         private void btnMonitoring_Click(object sender, EventArgs e)
         {
             Monitoring Monitoring = new Monitoring();
             Monitoring.Show();
+
+            this.Hide();
         }
 
         private void btnAlarmHandling_Click(object sender, EventArgs e)
         {
             AlarmHandler Alarmhandler = new AlarmHandler();
             Alarmhandler.Show();
+
+            this.Hide();
         }
+        
     }
 }

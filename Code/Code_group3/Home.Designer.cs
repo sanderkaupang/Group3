@@ -38,9 +38,10 @@
             this.btnAlarmHandling.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAlarmHandling.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlarmHandling.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlarmHandling.Location = new System.Drawing.Point(146, 122);
+            this.btnAlarmHandling.Location = new System.Drawing.Point(175, 326);
+            this.btnAlarmHandling.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAlarmHandling.Name = "btnAlarmHandling";
-            this.btnAlarmHandling.Size = new System.Drawing.Size(181, 122);
+            this.btnAlarmHandling.Size = new System.Drawing.Size(144, 43);
             this.btnAlarmHandling.TabIndex = 0;
             this.btnAlarmHandling.Text = "Alarm Handling";
             this.btnAlarmHandling.UseVisualStyleBackColor = false;
@@ -51,9 +52,10 @@
             this.btnMonitoring.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnMonitoring.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMonitoring.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMonitoring.Location = new System.Drawing.Point(456, 122);
+            this.btnMonitoring.Location = new System.Drawing.Point(408, 326);
+            this.btnMonitoring.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMonitoring.Name = "btnMonitoring";
-            this.btnMonitoring.Size = new System.Drawing.Size(174, 122);
+            this.btnMonitoring.Size = new System.Drawing.Size(138, 43);
             this.btnMonitoring.TabIndex = 1;
             this.btnMonitoring.Text = "Monitoring";
             this.btnMonitoring.UseVisualStyleBackColor = true;
@@ -61,12 +63,13 @@
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(741, 539);
             this.Controls.Add(this.btnMonitoring);
             this.Controls.Add(this.btnAlarmHandling);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Home";
             this.Text = "Form1";
             this.ResumeLayout(false);

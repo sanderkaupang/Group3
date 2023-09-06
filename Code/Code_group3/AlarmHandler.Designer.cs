@@ -41,49 +41,54 @@
             // btnAlarmActive
             // 
             this.btnAlarmActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlarmActive.Location = new System.Drawing.Point(120, 29);
+            this.btnAlarmActive.Location = new System.Drawing.Point(90, 24);
+            this.btnAlarmActive.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAlarmActive.Name = "btnAlarmActive";
-            this.btnAlarmActive.Size = new System.Drawing.Size(182, 43);
+            this.btnAlarmActive.Size = new System.Drawing.Size(136, 35);
             this.btnAlarmActive.TabIndex = 0;
-            this.btnAlarmActive.Text = "Away (Alarm Active)";
+            this.btnAlarmActive.Text = "Away (Active)";
             this.btnAlarmActive.UseVisualStyleBackColor = true;
             // 
             // btnAlarmDeactive
             // 
             this.btnAlarmDeactive.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlarmDeactive.Location = new System.Drawing.Point(419, 29);
+            this.btnAlarmDeactive.Location = new System.Drawing.Point(314, 24);
+            this.btnAlarmDeactive.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAlarmDeactive.Name = "btnAlarmDeactive";
-            this.btnAlarmDeactive.Size = new System.Drawing.Size(195, 43);
+            this.btnAlarmDeactive.Size = new System.Drawing.Size(146, 35);
             this.btnAlarmDeactive.TabIndex = 1;
-            this.btnAlarmDeactive.Text = "Home (Alarm Deactive)";
+            this.btnAlarmDeactive.Text = "Home (Deactive)";
             this.btnAlarmDeactive.UseVisualStyleBackColor = true;
             // 
             // dgvAlarmList
             // 
             this.dgvAlarmList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAlarmList.Location = new System.Drawing.Point(120, 107);
+            this.dgvAlarmList.Location = new System.Drawing.Point(90, 87);
+            this.dgvAlarmList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvAlarmList.Name = "dgvAlarmList";
             this.dgvAlarmList.RowHeadersWidth = 51;
             this.dgvAlarmList.RowTemplate.Height = 24;
-            this.dgvAlarmList.Size = new System.Drawing.Size(494, 221);
+            this.dgvAlarmList.Size = new System.Drawing.Size(370, 180);
             this.dgvAlarmList.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(320, 82);
+            this.label1.Location = new System.Drawing.Point(240, 67);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 25);
+            this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Alarm List";
             // 
             // btnLog
             // 
             this.btnLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLog.Location = new System.Drawing.Point(196, 351);
+            this.btnLog.Location = new System.Drawing.Point(124, 285);
+            this.btnLog.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLog.Name = "btnLog";
-            this.btnLog.Size = new System.Drawing.Size(106, 43);
+            this.btnLog.Size = new System.Drawing.Size(80, 35);
             this.btnLog.TabIndex = 4;
             this.btnLog.Text = "Log";
             this.btnLog.UseVisualStyleBackColor = true;
@@ -91,18 +96,20 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(432, 351);
+            this.button1.Location = new System.Drawing.Point(328, 285);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 43);
+            this.button1.Size = new System.Drawing.Size(90, 35);
             this.button1.TabIndex = 5;
             this.button1.Text = "Reset Alarm";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // btnHome
             // 
-            this.btnHome.Location = new System.Drawing.Point(12, 414);
+            this.btnHome.Location = new System.Drawing.Point(525, 11);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(85, 24);
+            this.btnHome.Size = new System.Drawing.Size(64, 20);
             this.btnHome.TabIndex = 6;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = true;
@@ -110,10 +117,10 @@
             // 
             // AlarmHandler
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnLog);
@@ -121,6 +128,7 @@
             this.Controls.Add(this.dgvAlarmList);
             this.Controls.Add(this.btnAlarmDeactive);
             this.Controls.Add(this.btnAlarmActive);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AlarmHandler";
             this.Text = "AlarmHandler";
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlarmList)).EndInit();

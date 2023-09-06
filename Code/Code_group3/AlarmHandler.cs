@@ -21,6 +21,8 @@ namespace Code_group3
         {
             Home Home = new Home();
             Home.Show();
+
+            this.Hide();
         }
     }
 }

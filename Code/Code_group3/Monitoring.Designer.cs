@@ -44,55 +44,61 @@
             // dgvM
             // 
             this.dgvM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvM.Location = new System.Drawing.Point(393, 98);
+            this.dgvM.Location = new System.Drawing.Point(295, 80);
+            this.dgvM.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvM.Name = "dgvM";
             this.dgvM.RowHeadersWidth = 51;
             this.dgvM.RowTemplate.Height = 24;
-            this.dgvM.Size = new System.Drawing.Size(342, 281);
+            this.dgvM.Size = new System.Drawing.Size(256, 228);
             this.dgvM.TabIndex = 0;
             // 
             // txtHeatStatus
             // 
             this.txtHeatStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHeatStatus.Location = new System.Drawing.Point(36, 77);
+            this.txtHeatStatus.Location = new System.Drawing.Point(9, 63);
+            this.txtHeatStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtHeatStatus.Name = "txtHeatStatus";
-            this.txtHeatStatus.Size = new System.Drawing.Size(100, 27);
+            this.txtHeatStatus.Size = new System.Drawing.Size(102, 23);
             this.txtHeatStatus.TabIndex = 2;
             this.txtHeatStatus.Text = "Heat Status";
             // 
             // txtCoolingStatus
             // 
             this.txtCoolingStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCoolingStatus.Location = new System.Drawing.Point(166, 77);
+            this.txtCoolingStatus.Location = new System.Drawing.Point(124, 63);
+            this.txtCoolingStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCoolingStatus.Name = "txtCoolingStatus";
-            this.txtCoolingStatus.Size = new System.Drawing.Size(119, 27);
+            this.txtCoolingStatus.Size = new System.Drawing.Size(109, 23);
             this.txtCoolingStatus.TabIndex = 3;
             this.txtCoolingStatus.Text = "Cooling Status";
             // 
             // txtProcessValue
             // 
             this.txtProcessValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProcessValue.Location = new System.Drawing.Point(166, 126);
+            this.txtProcessValue.Location = new System.Drawing.Point(124, 102);
+            this.txtProcessValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtProcessValue.Name = "txtProcessValue";
-            this.txtProcessValue.Size = new System.Drawing.Size(119, 27);
+            this.txtProcessValue.Size = new System.Drawing.Size(109, 23);
             this.txtProcessValue.TabIndex = 4;
             this.txtProcessValue.Text = "Process Value";
             // 
             // txtSetTempValue
             // 
             this.txtSetTempValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSetTempValue.Location = new System.Drawing.Point(12, 126);
+            this.txtSetTempValue.Location = new System.Drawing.Point(9, 102);
+            this.txtSetTempValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSetTempValue.Name = "txtSetTempValue";
-            this.txtSetTempValue.Size = new System.Drawing.Size(134, 27);
+            this.txtSetTempValue.Size = new System.Drawing.Size(102, 23);
             this.txtSetTempValue.TabIndex = 5;
             this.txtSetTempValue.Text = "Set Temp Value";
             // 
             // btnLightManual
             // 
             this.btnLightManual.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLightManual.Location = new System.Drawing.Point(22, 194);
+            this.btnLightManual.Location = new System.Drawing.Point(16, 158);
+            this.btnLightManual.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLightManual.Name = "btnLightManual";
-            this.btnLightManual.Size = new System.Drawing.Size(124, 30);
+            this.btnLightManual.Size = new System.Drawing.Size(93, 24);
             this.btnLightManual.TabIndex = 6;
             this.btnLightManual.Text = "Light Manual";
             this.btnLightManual.UseVisualStyleBackColor = true;
@@ -100,9 +106,10 @@
             // btnLightAuto
             // 
             this.btnLightAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLightAuto.Location = new System.Drawing.Point(166, 194);
+            this.btnLightAuto.Location = new System.Drawing.Point(137, 158);
+            this.btnLightAuto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLightAuto.Name = "btnLightAuto";
-            this.btnLightAuto.Size = new System.Drawing.Size(100, 30);
+            this.btnLightAuto.Size = new System.Drawing.Size(75, 24);
             this.btnLightAuto.TabIndex = 7;
             this.btnLightAuto.Text = "Light Auto";
             this.btnLightAuto.UseVisualStyleBackColor = true;
@@ -110,38 +117,42 @@
             // btnOffOn
             // 
             this.btnOffOn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOffOn.Location = new System.Drawing.Point(24, 262);
+            this.btnOffOn.Location = new System.Drawing.Point(18, 213);
+            this.btnOffOn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOffOn.Name = "btnOffOn";
-            this.btnOffOn.Size = new System.Drawing.Size(122, 29);
+            this.btnOffOn.Size = new System.Drawing.Size(92, 24);
             this.btnOffOn.TabIndex = 8;
             this.btnOffOn.Text = "Light Off/On";
             this.btnOffOn.UseVisualStyleBackColor = true;
             // 
             // btnHome
             // 
-            this.btnHome.Location = new System.Drawing.Point(12, 415);
+            this.btnHome.Location = new System.Drawing.Point(514, 11);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(100, 23);
+            this.btnHome.Size = new System.Drawing.Size(75, 19);
             this.btnHome.TabIndex = 9;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(483, 70);
+            this.label1.Location = new System.Drawing.Point(362, 57);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 25);
+            this.label1.Size = new System.Drawing.Size(148, 20);
             this.label1.TabIndex = 10;
             this.label1.Text = "Temperature logger";
             // 
             // Monitoring
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnOffOn);
@@ -152,6 +163,7 @@
             this.Controls.Add(this.txtCoolingStatus);
             this.Controls.Add(this.txtHeatStatus);
             this.Controls.Add(this.dgvM);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Monitoring";
             this.Text = "Monitoring";
             ((System.ComponentModel.ISupportInitialize)(this.dgvM)).EndInit();
