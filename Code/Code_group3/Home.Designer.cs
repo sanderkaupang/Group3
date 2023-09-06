@@ -28,11 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnAlarmHandling = new System.Windows.Forms.Button();
             this.btnMonitoring = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtBoxServerStatus = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -98,12 +102,38 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Made by: Weihrauch, Fagerlund and Kaupang";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(74, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Server Status:";
+            // 
+            // txtBoxServerStatus
+            // 
+            this.txtBoxServerStatus.BackColor = System.Drawing.Color.Azure;
+            this.txtBoxServerStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBoxServerStatus.Location = new System.Drawing.Point(83, 13);
+            this.txtBoxServerStatus.Name = "txtBoxServerStatus";
+            this.txtBoxServerStatus.Size = new System.Drawing.Size(100, 13);
+            this.txtBoxServerStatus.TabIndex = 8;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 500;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(741, 539);
+            this.Controls.Add(this.txtBoxServerStatus);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnMonitoring);
@@ -128,6 +158,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtBoxServerStatus;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

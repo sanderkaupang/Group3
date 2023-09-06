@@ -52,6 +52,7 @@
     <Compile Include="AlarmHandler.Designer.cs">
       <DependentUpon>AlarmHandler.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\ServerPinger.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>

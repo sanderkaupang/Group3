@@ -33,6 +33,26 @@ namespace Code_group3
 
             this.Hide();
         }
-        
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            string serverIpAddress = "8.8.8.8"; // Endre til den faktiske IP-adressen
+            ServerPinger serverPinger = new ServerPinger(serverIpAddress);
+
+            bool isServerOnline = serverPinger.PingServer();
+
+            if (isServerOnline)
+            {
+                txtBoxServerStatus.Text = "online";
+                txtBoxServerStatus.ForeColor = System.Drawing.Color.Green;
+                //MessageBox.Show("Serveren er tilgjengelig.");
+            }
+            else
+            {
+                txtBoxServerStatus.Text = "offline";
+                txtBoxServerStatus.ForeColor = System.Drawing.Color.Red;
+                //MessageBox.Show("Serveren er ikke tilgjengelig.");
+            }
+        }
     }
 }
