@@ -24,5 +24,17 @@ namespace Code_group3
 
             this.Hide();
         }
+
+        private void btnAlarmDeactive_Click(object sender, EventArgs e)
+        {
+            picBoxDeactive.Visible = true;  // Vis PictureBox1
+            picBoxActive.Visible = false; // Skjul PictureBox2
+        }
+
+        private void btnAlarmActive_Click(object sender, EventArgs e)
+        {
+            picBoxDeactive.Visible = false;  // Vis PictureBox1
+            picBoxActive.Visible = true; // Skjul PictureBox2
+        }
     }
 }
