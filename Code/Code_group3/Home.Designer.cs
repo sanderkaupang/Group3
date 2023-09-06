@@ -44,6 +44,7 @@
             this.btnAlarmHandling.TabIndex = 0;
             this.btnAlarmHandling.Text = "Alarm Handling";
             this.btnAlarmHandling.UseVisualStyleBackColor = false;
+            this.btnAlarmHandling.Click += new System.EventHandler(this.btnAlarmHandling_Click);
             // 
             // btnMonitoring
             // 
@@ -56,6 +57,7 @@
             this.btnMonitoring.TabIndex = 1;
             this.btnMonitoring.Text = "Monitoring";
             this.btnMonitoring.UseVisualStyleBackColor = true;
+            this.btnMonitoring.Click += new System.EventHandler(this.btnMonitoring_Click);
             // 
             // Home
             // 
