@@ -16,5 +16,17 @@ namespace Code_group3
         {
             InitializeComponent();
         }
+
+        private void btnMonitoring_Click(object sender, EventArgs e)
+        {
+            Monitoring Monitoring = new Monitoring();
+            Monitoring.Show();
+        }
+
+        private void btnAlarmHandling_Click(object sender, EventArgs e)
+        {
+            AlarmHandler Alarmhandler = new AlarmHandler();
+            Alarmhandler.Show();
+        }
     }
 }
