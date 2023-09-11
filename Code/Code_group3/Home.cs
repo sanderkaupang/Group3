@@ -54,5 +54,13 @@ namespace Code_group3
                 //MessageBox.Show("Serveren er ikke tilgjengelig.");
             }
         }
+
+        private void btnServerCon_Click(object sender, EventArgs e)
+        {
+            ServerCon ServerCon = new ServerCon();
+            ServerCon.Show();
+
+            this.Hide();
+        }
     }
 }
