@@ -36,3 +36,4 @@ D:\Documents\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.csproj.Generat
 D:\Documents\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.csproj.CoreCompileInputs.cache
 D:\Documents\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.exe
 D:\Documents\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.pdb
+C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.ServerCon.resources
